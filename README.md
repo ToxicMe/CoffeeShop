@@ -22,7 +22,7 @@ This is an online coffee shop application developed for a local coffee shop. The
 
 ### 4. Place an order
 
-- When users click on the "Place Order" button, the total price is displayed, and an order is created.
+- When users click the "Place Order" button, the total price is displayed, creating an order.
 - The system updates the inventory quantities accordingly.
 - The coffee shop manager is notified of the new order.
 
@@ -35,11 +35,11 @@ This is an online coffee shop application developed for a local coffee shop. The
 
 ## Technology Stack
 
-The application is built using Django, a powerful web framework for Python. Django offers a wide range of features and tools to create robust and scalable web applications.
+The application is built using Django, a powerful web framework for Python. Django offers many features and tools to create robust and scalable web applications.
 
 ## Setup Instructions
 
-1. Clone the repository: `git clone https://github.com/yourusername/online-coffee-shop.git`
+1. Clone the repository: `git clone https://github.com/ToxicMe/CoffeeShop`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run database migrations: `python manage.py migrate`
 4. Create a superuser for manager access: `python manage.py createsuperuser`
@@ -55,6 +55,6 @@ Feel free to extend the project and implement additional features based on your 
 - Email notifications to customers and managers
 - Generating reports and analytics for the coffee shop's performance
 
-Remember to test your code thoroughly and ensure the security of user data and sensitive information.
+Please remember to test your code thoroughly and make sure the user data and sensitive information is safe.
 
 Enjoy using the Online Coffee Shop Application!
